@@ -16,7 +16,7 @@
         </div>
         <nav class="w-full flex justify-around px-7 py-5  items-center ">
                 <div class="flex gap-8 items-center ">
-                    <a class="rounded-full font-extrabold hover: bg-gray-500" href="">
+                    <a class="rounded-full font-extrabold" href="">
                          <img src="img/logo.png"class="h-25 w-40 object-contain rounded-3xl w-full"  alt = "logo">
                     </a>
                     <a class="font-semibold text-lg transition-all hover:opacity-50 hover:text-base" href=""><select class="cursor-pointer"><option value="1">Universities</option></select></a>
@@ -35,7 +35,7 @@
             </nav>
     </header>
     <div class=" min-h-screen bg-[url('img/first.jpeg')] bg-cover bg-center bg-no-repeat text-white ">
-     <div class="grid relative z-10 max-w-2xl px-10 pt-32 px-20 ">
+     <div class="grid max-w-2xl px-10 pt-32 px-20 ">
        <h1 class="text-white text-5xl font-bold mb-6">
         Find Your Perfect University, Language School or Summer Schools Program
        </h1>
@@ -52,73 +52,53 @@
        </div>
      </div>
     </div>
-    <div class="relative z-20 mx-10 -mt-16 bg-white rounded-2xl shadow-xl p-6 mb-10">
- 
-    <div class="flex gap-2 mb-6 border-b border-gray-200 pb-4">
-      <button class="bg-blue-500 text-white font-semibold px-6 py-2 rounded-lg">
-        University Programs
-      </button>
-      <button class="text-gray-600 font-semibold px-6 py-2 rounded-lg hover:bg-gray-100">
-        Language Schools
-      </button>
-      <button class="text-gray-600 font-semibold px-6 py-2 rounded-lg hover:bg-gray-100">
-        Summer Schools
-      </button>
-    </div>
- 
-    
-    <div class="flex gap-4 items-end">
-      <div class="flex-1">
-        <label class="block text-xs text-gray-400 mb-1">Location</label>
-        <div class="relative">
-          <select class="w-full border border-gray-200 rounded-lg px-3 py-3 text-gray-400 text-sm appearance-none pr-8">
-            <option>Select Location</option>
-          </select>
-          <span class="pointer-events-none absolute right-3 top-3.5 text-gray-400 text-xs">▼</span>
-        </div>
-      </div>
- 
-      
-      <div class="flex-1">
-        <label class="block text-xs text-gray-400 mb-1">Institution</label>
-        <div class="relative">
-          <select class="w-full border border-gray-200 rounded-lg px-3 py-3 text-gray-400 text-sm appearance-none pr-8">
-            <option>Select Institution</option>
-          </select>
-          <span class="pointer-events-none absolute right-3 top-3.5 text-gray-400 text-xs">▼</span>
-        </div>
-      </div>
- 
-      
-      <div class="flex-1">
-        <label class="block text-xs text-gray-400 mb-1">Discipline</label>
-        <div class="relative">
-          <select class="w-full border border-gray-200 rounded-lg px-3 py-3 text-gray-400 text-sm appearance-none pr-8">
-            <option>Select Discipline</option>
-          </select>
-          <span class="pointer-events-none absolute right-3 top-3.5 text-gray-400 text-xs">▼</span>
-        </div>
-      </div>
- 
-      
-      <div class="flex-1">
-        <label class="block text-xs text-gray-400 mb-1">Program Level</label>
-        <div class="relative">
-          <select class="w-full border border-gray-200 rounded-lg px-3 py-3 text-gray-400 text-sm appearance-none pr-8">
-            <option>Select Program Level</option>
-          </select>
-          <span class="pointer-events-none absolute right-3 top-3.5 text-gray-400 text-xs">▼</span>
-        </div>
-      </div>
- 
-      
-      <button class="bg-blue-500 hover:bg-blue-600 text-white p-3.5 rounded-xl">
-         <a class="font-extrabold " href="">
-        <img class="h-6 w-6 object-contain" src="img/search.svg" alt="Company Logo"/></a>
-      </button>
-    </div>
+<div class="relative z-10 -mt-30 px-4 mx-auto max-w-5xl">
+<div class="w-full max-w-5xl rounded-xl border border-blue-100 bg-blue-100 p-4 shadow-xl backdrop-blur-md">
+  <div class="flex">
+    <button class="rounded-t-lg bg-blue-600 px-6 py-3 font-semibold text-white">
+      University Programs
+    </button>
+    <button class="rounded-t-lg bg-white px-6 py-3  text-gray-700  hover:font-semibold">
+      Language Schools
+    </button>
+    <button class="rounded-t-lg bg-white px-6 py-3 text-gray-700  hover:font-semibold">
+      Summer Schools
+    </button>
   </div>
-  <div class="grid gap-4 bg-gray-100 px-10 py-10">
+  <div class="flex items-center gap-4 rounded-b-xl rounded-tr-xl bg-white p-4 shadow-sm">
+    <div class="flex-1 border-r border-gray-200 pr-4">
+      <label class="block text-xs font-semibold text-gray-400 ">Location</label>
+      <select class="w-full bg-transparent py-1 text-gray-700 outline-none">
+        <option>Select Location</option>
+      </select>
+    </div>
+    <div class="flex-1 border-r border-gray-200 pr-4">
+      <label class="block text-xs font-semibold text-gray-400 ">Institution</label>
+      <select class="w-full bg-transparent py-1 text-gray-700 outline-none">
+        <option>Select Institution</option>
+      </select>
+    </div>
+    <div class="flex-1 border-r border-gray-200 pr-4">
+      <label class="block text-xs font-semibold text-gray-400 ">Discipline</label>
+      <select class="w-full bg-transparent py-1 text-gray-700 outline-none">
+        <option>Select Discipline</option>
+      </select>
+    </div>
+    <div class="flex-1">
+      <label class="block text-xs font-semibold text-gray-400 uppercase">Program Level</label>
+      <select class="w-full bg-transparent py-1 text-gray-700 outline-none">
+        <option>Select Program Level</option>
+      </select>
+    </div>
+    <button class="rounded-lg bg-blue-600 p-4 text-white hover:bg-blue-700">
+      <a class="font-extrabold hover: " href="">
+        <img class="h-5 w-5 object-contain" src="img/search.svg" alt="Company Logo"/></a>
+    </button>
+
+  </div>
+</div>
+   </div>
+  <div class="grid gap-4 bg-gray-100 px-10 py-10 pt-10">
     <h1 class="text-2xl font-bold leading-tight ">University Programs</h1>
     <p >Taking the first step toward your dream university has never been easier!</p>
     <p>Uni4Edu, through its strong partnerships with top universities around the world, helps students find the programs that best match their academic goals and career plans. Whether you're aiming for an engineering degree in the UK, a business program in Canada, or an art-focused undergraduate study in Italy, Uni4Edu guides you toward your dream in the most effective way.</p>
