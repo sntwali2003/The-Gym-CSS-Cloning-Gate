@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Stripe Website</title>
+    <link rel="stylesheet" href="https://googleapis.com" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-white">
+    <header class="py-0">
+        <div class="flex justify-end gap-4 px-60 py-3 bg-gray-100">
+            <a class="font-semibold" href="">Become an Agent</a>
+            <a class="font-semibold" href="">Patnership</a>
+            <a class="flex items-center font-semibold gap-2" href=""><img src="https://flagcdn.com/w20/gb.png" class="w-5 h-4 object-cover rounded-sm" />EN
+            </a>
+        </div>
+        <nav class="w-full flex justify-around px-7 py-5  items-center ">
+                <div class="flex gap-8 items-center ">
+                    <a class="font-extrabold " href="">
+                         <img src="img/logo.png"class="h-25 w-40 object-contain rounded-3xl w-full"  alt = "logo">
+                    </a>
+                    <a class="font-semibold text-lg transition-all hover:opacity-50 hover:text-base" href=""><select class="cursor-pointer"><option value="1">Universities</option></select></a>
+                    <a class="font-semibold text-lg" href="">Masters</a>
+                    <a class="font-semibold text-lg transition-all hover:opacity-50 hover:text-base" href=""><select class="cursor-pointer"><option value="1">Language Schools</option></select></a>
+                    <a class="font-semibold text-lg transition-all hover:opacity-50 hover:text-base" href=""><select class="cursor-pointer"><option value="1">Summer Schools</option></select></a>
+                    <a class="font-semibold text-lg " href="">High School</a>
+                </div>
+                <div class="flex gap-8">
+                    <button class="text-cyan-400 hover:text-cyan-600 transition-colors duration-200">
+                        <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>
+                    </button>
+                    <button class="bg-cyan-400 px-7 py-2 text-black rounded-b-lg rounded-t-lg font-semibold hover:bg-cyan-300"><a href ="">Login</a></button>
+                </div>
+            </nav>
+    </header>
+    <div class=" min-h-screen bg-[url('img/first.jpeg')] bg-cover bg-center bg-no-repeat text-white ">
+     <div class="relative z-10 max-w-2xl px-10 pt-32">
+       <h1 class="text-white text-5xl font-bold leading-tight mb-6">
+        Find Your Perfect University, Language School or Summer Schools Program
+       </h1>
+       <p class="text-white text-lg mb-10">
+        Uni4edu simplifies the journey to studying abroad by bringing top institutions worldwide into a single digital platform. Manage your entire process—from school selection to application—directly within the system and achieve your academic and career goals online.
+       </p>
+       <div class="flex gap-4">
+        <button class="bg-sky-400 hover:bg-sky-500 text-white font-semibold px-6 py-3 rounded-lg">
+          Explore Programs
+        </button>
+        <button class="bg-white hover:bg-gray-100 text-sky-500 font-semibold px-6 py-3 rounded-lg border border-white">
+          Get Free Advice
+        </button>
+       </div>
+     </div>
+    </div>
+    <div class="relative z-20 mx-10 -mt-16 bg-white rounded-2xl shadow-xl p-6 mb-10">
+ 
+    <div class="flex gap-2 mb-6 border-b border-gray-200 pb-4">
+      <button class="bg-blue-500 text-white font-semibold px-6 py-2 rounded-lg">
+        University Programs
+      </button>
+      <button class="text-gray-600 font-semibold px-6 py-2 rounded-lg hover:bg-gray-100">
+        Language Schools
+      </button>
+      <button class="text-gray-600 font-semibold px-6 py-2 rounded-lg hover:bg-gray-100">
+        Summer Schools
+      </button>
+    </div>
+ 
+    
+    <div class="flex gap-4 items-end">
+ 
+      
+      <div class="flex-1">
+        <label class="block text-xs text-gray-400 mb-1">Location</label>
+        <div class="relative">
+          <select class="w-full border border-gray-200 rounded-lg px-3 py-3 text-gray-400 text-sm appearance-none pr-8">
+            <option>Select Location</option>
+          </select>
+          <span class="pointer-events-none absolute right-3 top-3.5 text-gray-400 text-xs">▼</span>
+        </div>
+      </div>
+ 
+      
+      <div class="flex-1">
+        <label class="block text-xs text-gray-400 mb-1">Institution</label>
+        <div class="relative">
+          <select class="w-full border border-gray-200 rounded-lg px-3 py-3 text-gray-400 text-sm appearance-none pr-8">
+            <option>Select Institution</option>
+          </select>
+          <span class="pointer-events-none absolute right-3 top-3.5 text-gray-400 text-xs">▼</span>
+        </div>
+      </div>
+ 
+      
+      <div class="flex-1">
+        <label class="block text-xs text-gray-400 mb-1">Discipline</label>
+        <div class="relative">
+          <select class="w-full border border-gray-200 rounded-lg px-3 py-3 text-gray-400 text-sm appearance-none pr-8">
+            <option>Select Discipline</option>
+          </select>
+          <span class="pointer-events-none absolute right-3 top-3.5 text-gray-400 text-xs">▼</span>
+        </div>
+      </div>
+ 
+      
+      <div class="flex-1">
+        <label class="block text-xs text-gray-400 mb-1">Program Level</label>
+        <div class="relative">
+          <select class="w-full border border-gray-200 rounded-lg px-3 py-3 text-gray-400 text-sm appearance-none pr-8">
+            <option>Select Program Level</option>
+          </select>
+          <span class="pointer-events-none absolute right-3 top-3.5 text-gray-400 text-xs">▼</span>
+        </div>
+      </div>
+ 
+      
+      <button class="bg-blue-500 hover:bg-blue-600 text-white p-3.5 rounded-xl">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/>
+        </svg>
+      </button>
+ 
+    </div>
+  </div>
+</body>
+</html>
